@@ -1,0 +1,102 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>left</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/chili-1.7.pack.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="js/jquery.accordion.js"></script>
+<script language="javascript">
+	jQuery().ready(function(){
+		jQuery('#navigation').accordion({
+			header: '.head',
+			navigation1: true, 
+			event: 'click',
+			fillSpace: true,
+			animated: 'bounceslide'
+		});
+	});
+</script>
+<style type="text/css">
+<!--
+body {
+	background: #f6f5ec;
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+}
+#navigation {
+	margin:0px;
+	padding:0px;
+	width:147px;
+}
+#navigation a.head {
+	cursor:pointer;
+	background:url(images/main_34.gif) no-repeat scroll;
+	display:block;
+	font-weight:bold;
+	margin:0px;
+	padding:5px 0 5px;
+	text-align:center;
+	font-size:12px;
+	text-decoration:none;
+}
+#navigation ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#navigation li {
+	list-style:none; display:inline;
+}
+#navigation li li a {
+	display:block;
+	font-size:12px;
+	text-decoration: none;
+	text-align:center;
+	padding:3px;
+}
+#navigation li li a:hover {
+	background:url(images/tab_bg.gif) repeat-x;
+		border:solid 1px #adb9c2;
+}
+-->
+</style>
+</head>
+<body>
+<div  style="height:100%;">
+  <ul id="navigation">
+    <li> <a class="head">商品管理</a>
+      <ul>
+        <li><a href="addProduct.jsp" target="rightFrame">添加商品</a></li>
+        <li><a href="delProduct.jsp" target="rightFrame">删除商品</a></li>
+		<li><a href="updateProduct.jsp" target="rightFrame">修改商品</a></li>
+		<li><a href="showAllProducts.jsp" target="rightFrame">所有商品</a></li>
+      </ul>
+    </li>
+    <li> <a class="head">用户管理</a>
+      <ul>
+        <li><a href="addUser.jsp" target="rightFrame">添加用户</a></li>
+        <li><a href="delUser.jsp" target="rightFrame">删除用户</a></li>
+        <li><a href="resetPsdInBackStage.jsp" target="rightFrame">修改用户密码</a></li>
+        <li><a href="showAllUser.jsp" target="rightFrame">所有用户</a></li>
+      </ul>
+    </li>
+    <li> <a class="head">类别管理</a>
+      <ul>
+        <li><a href="addList.jsp" target="rightFrame">添加类别</a></li>
+        <li><a href="delList.jsp" target="rightFrame">删除类别</a></li>
+        <li><a href="updateList.jsp" target="rightFrame">更新类别</a></li>
+      </ul>
+    </li>
+    <li> <a class="head">版本信息</a>
+      <ul>
+        <li><a href="about.jsp" target="rightFrame">关于</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

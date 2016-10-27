@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="stru2ts2" extends="struts-default">
+		<action name="Login" class="action.Login">
+			<result name="success">/index.jsp</result>
+			<result name="error">/login.jsp</result>
+		</action>
+		<action name="Register" class="action.Register">
+			<result name="success">/login.jsp</result>
+			<result name="error">/register.jsp</result>
+		</action>
+		<action name="Update" class="action.UpdateProduct">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="Add" class="action.AddProduct">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="Delete" class="action.DelProduct">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="Order" class="action.CreateOrder">
+			<result name="success">/orderSuccess.jsp</result>
+			<result name="error">/checkout.jsp</result>
+		</action>
+		<action name="addUser" class="action.addUser">
+			<result name="success">/showAllUser.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="resetPSD" class="action.updateUser">
+			<result name="success">/showAllUser.jsp</result>
+			<result name="error">/resetPsdInBackStage.jsp</result>
+		</action>
+		<action name="delUser" class="action.delUser">
+			<result name="success">/showAllUser.jsp</result>
+			<result name="error">/delUser.jsp</result>
+		</action>
+		<action name="AddList" class="action.addList">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="DelList" class="action.delList">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="UpdateList" class="action.updateList">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	</package>
+</struts>

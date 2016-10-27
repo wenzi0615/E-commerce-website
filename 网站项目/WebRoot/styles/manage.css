@@ -1,0 +1,35 @@
+body {
+	font-family:SimHei;
+	font-weight:bold;
+	color:#11264f;
+	background: #afdfe4;
+	text-align:center;
+}
+a, a:visited {
+    color:#6b2c25;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+h1 {
+	font-size: 3em;
+	color: #293047;
+	font-family:SimHei;
+	font-weight:bold;
+}
+
+h2 {
+	font-size: 2em;
+	color: #293047;
+	font-family:SimHei;
+	font-weight:bold;
+}
+
+h3{
+	font-size: 1em;
+	color: #293047;
+	font-family:SimHei;
+	font-weight:bold;
+}

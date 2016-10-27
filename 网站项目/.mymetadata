@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Hut"
+  id="myeclipse.1387083909099"
+  context-root="/Hut"
+  j2ee-spec="1.4"
+  archive="Hut.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
